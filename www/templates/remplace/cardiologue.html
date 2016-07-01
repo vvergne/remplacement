@@ -1,0 +1,47 @@
+<ion-view  id="page5" title="Cardiologue" >
+  <ion-content  class="has-header" padding="true">
+    <div style="" class="list card">
+      <div class="item item-divider item-positive">Communauté Cardiologue</div>
+      <div class="item item-body">
+        <div style="text-align: center;">
+          <img src="img/cardiologue.png"  height="auto" width="50%">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="buttons col-offset-10 col-20">
+        <button class=" button button-icon icon ion-edit positive" ng-click=""></button>
+      </div>
+
+      <div class="buttons col-20">
+        <button class=" button button-icon icon ion-checkmark positive" ng-click=""></button>
+      </div>
+
+      <div class="buttons col-20">
+        <button class=" button button-icon icon ion-refresh positive" ng-click=""></button>
+      </div>
+
+      <div class="buttons col-20">
+        <button class="button button-icon icon ion-trash-b positive" ng-click="deleteModal();"></button>
+      </div>
+    </div>
+
+    <ion-list>
+      <div style=""  class="list card" ng-controller="annonceCtrl" ng-repeat="announcement in announcements">
+        <div class="item item-divider item-positive"> {{announcement.title}} </div>
+        <div class="item item-body">
+          <!-- <div style=" text-align: center;" >
+          <img src="img/meudon.png" height="auto" width="100%"/>
+          <p> {{announcement.description}} </p>
+        </div>
+      </div> -->
+      <div class="item item-divider item-positive"> {{announcement.region}} </div>
+      <div class="item item-divider item-positive"> Retrocession: {{announcement.retro}} </div>
+      <div class="item item-divider item-positive"> {{announcement.distance}} </div>
+      <div class="item item-divider item-positive"> {{announcement.debut}} </div>
+      <div class="item item-divider item-positive"> {{announcement.fin}} </div>
+    </div>
+  </div>
+</ion-list>
+</ion-content>
+</ion-view>

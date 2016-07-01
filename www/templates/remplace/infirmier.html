@@ -1,0 +1,58 @@
+<ion-view style="" id="page7" title="Infirmier">
+  <ion-content class="has-header" padding="true">
+  <button class="button button-positive"  ng-click="openModal()">Ajouter une annonce</button>
+    <ion-list>
+      <ion-item ng-repeat="announcement in annoucements">
+        <p>{{announcement.title}}        </p><br>
+        <p>{{announcement.description}}  </p>
+        <p>{{announcement.region}}       </p><br>
+      </ion-item>
+    </ion-list>
+    <form style="" class="list"></form>
+    <div style="" class="list card">
+      <div class="item item-divider item-positive">Communauté d'Infimier</div>
+      <div class="item item-body">
+        <div style="text-align: center;">
+          <img src="img/infirmiere.png"  height="auto" width="50%">
+        </div>
+      </div>
+    </div>
+    <div class="list">
+      <div class="item range range-positive">0 km
+        <i class="icon ion-home"></i>
+        <input type="range" name="volume" min="0" max="100" value="50">
+        <i class="icon ion-map"></i>100 km
+      </div>
+    </div>
+    <form style="" class="list"></form>
+    <div style=" font-size: 15px; text-align: center;" >
+      <p>Découvrez ci-dessous les différentes offres de remplacement concernant les Infirmiers.</p>
+    </div>
+    <div style="" class="list card">
+      <div class="item item-divider item-positive">Cherche remplacant Valenciennes </div>
+      <div class="item item-body">
+        <div style=" text-align: center;" >
+          <img src="img/meudon.png" height="auto" width="100%"/>
+          <p>Cabinet infirmier sur Valenciennes propose un remplacement régulier et vacances .
+            Tournée agréable et soins variés.....</p>
+          </div>
+        </div>
+        <div class="item item-divider item-positive">Taverny (95)</div>
+        <div class="item item-divider item-positive">Retrocession : 80 %</div>
+        <div class="item item-divider item-positive">Du 12/05 au 27/05 *insérer picto*</div>
+      </div>
+      <div style="" class="list card">
+        <div class="item item-divider item-positive">Cherche remplacant sur Chalon sur Saone </div>
+        <div class="item item-body">
+          <div style=" text-align: center;" >
+            <img src="img/saint-ouen.png" alt="" />
+            <p>Cabinet de 2 IDEL sur le secteur de Chalon Sur Saone recherche
+              remplaçant IDE libéral pour quelques jours en juillet -aout et octobre 2016. Tournée très agreable ...</p>
+            </div>
+          </div>
+          <div class="item item-divider item-positive">Chalon-sur-Saone (71)</div>
+          <div class="item item-divider item-positive">Retrocession : 80 %</div>
+          <div class="item item-divider item-positive">Du 12/05 au 27/05 *insérer picto*</div>
+        </div>
+        </ion-content>
+      </ion-view>

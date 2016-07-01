@@ -1,0 +1,71 @@
+<ion-view style="" id="page8" title="Kinesitherapeute">
+  <ion-content class="has-header" padding="true">
+  <button class="button button-positive"  ng-click="openModal()">Ajouter une annonce</button>
+    <ion-list>
+      <ion-item ng-repeat="announcement in annoucements">
+        <p>{{announcement.title}}        </p><br>
+        <p>{{announcement.description}}  </p>
+        <p>{{announcement.region}}       </p><br>
+      </ion-item>
+    </ion-list>
+    <form style="" class="list"></form>
+    <div style="" class="list card">
+      <div class="item item-divider item-positive">Communauté Kinésithérapie</div>
+      <div class="item item-body">
+        <div style="text-align: center;">
+          <img src="img/kinesitherapie.jpeg"  height="auto" width="50%">
+        </div>
+      </div>
+    </div>
+    <div class="list">
+      <div class="item range range-positive">0 km
+        <i class="icon ion-home"></i>
+        <input type="range" name="volume" min="0" max="100" value="10">
+        <i class="icon ion-map"></i>100 km
+      </div>
+    </div>
+    <form style="" class="list"></form>
+    <div  style=" font-size: 15px; text-align: center;" >
+      <p>Découvrez ci-dessous les différentes offres de remplacement concernant les Kinésithérapeute.</p>
+    </div>
+    <div style="" class="list card">
+      <div class="item item-divider item-positive">Cherche remplacant Taverny </div>
+      <div class="item item-body">
+        <div style=" text-align: center;" >
+          <img src="img/meudon.png" height="auto" width="100%"/>
+          <p>Cabinet de groupe, Taverny, Val d'Oise, petite ville tranquille à 20 minutes de Paris par l'A15;cherche remplaçant(e) du 17/05 au 27/05, et du 04/07 au 19/08 . Cabinet, domiciles, maisons de retraite....</p>
+        </div>
+      </div>
+      <div class="item item-divider item-positive">Taverny (95)</div>
+      <div class="item item-divider item-positive">Retrocession : 80 %</div>
+      <div class="item item-divider item-positive">Du 12/05 au 27/05 *insérer picto*</div>
+    </div>
+    <div style="" class="list card">
+      <div class="item item-divider item-positive">Remplacement conge maternite Aout à Décembre 2016 </div>
+      <div class="item item-body">
+        <div style=" text-align: center;" >
+          <img src="img/saint-ouen.png" alt="" />
+          <p>Recherche un(e) remplaçant(e) pour me remplacer durant mon congé maternité de début Août 2016 à fin décembre 2016.
+            Le cabinet (2 MKDE) est situé à Villemomble en zone pavillonnaire. ...</p>
+          </div>
+        </div>
+
+        <div class="item item-divider item-positive">Villemomble (93)</div>
+        <div class="item item-divider item-positive">Retrocession : 80 %</div>
+        <div class="item item-divider item-positive">Du 12/05 au 27/05 *insérer picto*</div>
+      </div>
+      <div style="" class="list card">
+        <div class="item item-divider item-positive">AIX en Provence Rempla aout 2016 </div>
+        <div class="item item-body">
+          <div style=" text-align: center;" >
+            <img src="img/fonsegrive.png" width="100%" alt="" />
+            <p>Cherche remplaçant du 8 au 26 aout 2016. Patientèle de 15 domiciles concentrés sur Aix en Provence
+              (secteur nord). Temps de déplacement très courts et parking facile chez chacun des patients....</p>
+            </div>
+          </div>
+          <div class="item item-divider item-positive">Aix en provence (13)</div>
+          <div class="item item-divider item-positive">Retrocession : 80 %</div>
+          <div class="item item-divider item-positive">Du 12/05 au 27/05 *insérer picto*</div>
+        </div>
+      </ion-content>
+    </ion-view>

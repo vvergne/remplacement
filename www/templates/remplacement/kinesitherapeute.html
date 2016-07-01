@@ -1,0 +1,30 @@
+<ion-view style="" id="page8" title="Kinesitherapeute">
+  <ion-content class="has-header" padding="true">
+    <div style="" class="list card">
+      <div class="item item-divider item-positive">Communauté Kinésithérapie</div>
+      <div class="item item-body">
+        <div style="text-align: center;">
+          <img src="img/kinesitherapie.jpeg"  height="auto" width="50%">
+        </div>
+      </div>
+    </div>
+    <form style="" class="list"></form>
+    <div  style=" font-size: 15px; text-align: center;" >
+      <p>Découvrez ci-dessous les différentes offres de remplacement concernant les Kinésithérapeute.</p>
+    </div>
+    <ion-list>
+      <div style=""  class="list card" ng-controller="annonceCtrl" ng-repeat="announcement in announcements">
+        <div class="item item-divider item-positive"> Kinésithérapeute </div>
+        <!-- <div class="item item-body">
+          <div style=" text-align: center;" >
+            <p> {{announcement.description}} </p>
+          </div>
+        </div> -->
+        <div class="item item-divider item-positive"> Lieu : Lille </div>
+        <div class="item item-divider item-positive"> Retrocession :90% </div>
+        <div class="item item-divider item-positive"> Du : {{announcement.debut}} </div>
+        <div class="item item-divider item-positive"> Au : {{announcement.fin}} </div>
+      </div>
+    </ion-list>
+      </ion-content>
+    </ion-view>

@@ -1,0 +1,15 @@
+<ion-view style="" id="page3" title="Installation">
+  <ion-content class="has-header" padding="true">
+    <p>
+    Page concernant les installations de cabinets !
+  </p>
+  <div ng-repeat="remplacement in remplacements" ng-controller="RempCtrl">
+    <p>{{remplacement.title}}</p>
+    <p>{{remplacement.distance}}</p>
+    <p>{{remplacement.content}}</p>
+    <p>{{retrocession}}</p>
+    <p>{{remplacement.date}}</p>
+
+  </div>
+  </ion-content>
+</ion-view>

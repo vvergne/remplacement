@@ -1,0 +1,30 @@
+<ion-view style="" id="page6" title="Dentiste">
+  <ion-content class="has-header" padding="true">
+    <div style="" class="list card">
+      <div class="item item-divider item-positive">Communauté de Pharmacien</div>
+      <div class="item item-body">
+        <div style="text-align: center;">
+          <img src="img/pharmacien.png"  height="auto" width="50%">
+        </div>
+      </div>
+    </div>
+    <form style="" class="list"></form>
+    <div style=" font-size: 15px; text-align: center;" >
+      <p>Découvrez ci-dessous les différentes offres de remplacement concernant les Pharmaciens.</p>
+    </div>
+    <ion-list>
+      <div style=""  class="list card" ng-controller="annonceCtrl" ng-repeat="announcement in announcements">
+        <div class="item item-divider item-positive"> Pharmacien  </div>
+        <!-- <div class="item item-body">
+          <div style=" text-align: center;" >
+            <p> {{announcement.description}} </p>
+          </div>
+        </div> -->
+        <div class="item item-divider item-positive"> Lieu : Douchy </div>
+        <div class="item item-divider item-positive"> Retrocession :90% </div>
+        <div class="item item-divider item-positive"> Du : {{announcement.debut}} </div>
+        <div class="item item-divider item-positive"> Au : {{announcement.fin}} </div>
+      </div>
+    </ion-list>
+            </ion-content>
+          </ion-view>

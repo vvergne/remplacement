@@ -1,0 +1,63 @@
+<ion-view style="" id="page9" title="Libéral">
+  <ion-content class="has-header" padding="true">
+  <button class="button button-positive"  ng-click="openModal()">Ajouter une annonce</button>
+    <ion-list>
+      <ion-item ng-repeat="announcement in annoucements">
+        <p>{{announcement.title}}        </p><br>
+        <p>{{announcement.description}}  </p>
+        <p>{{announcement.region}}       </p><br>
+      </ion-item>
+    </ion-list>
+    <form style="" class="list"></form>
+    <div style="" class="list card">
+      <div class="item item-divider item-positive">Communauté Libérale</div>
+      <div class="item item-body">
+        <div style="text-align: center;">
+          <img src="img/libéral.jpeg"  height="auto" width="50%">
+        </div>
+      </div>
+    </div>
+    <div class="list">
+      <div class="item range range-positive">0 km
+        <i class="icon ion-home"></i>
+        <input type="range" name="volume" min="0" max="100" value="10">
+        <i class="icon ion-map"></i>100 km
+      </div>
+    </div>
+    <form style="" class="list"></form>
+    <div  style=" font-size: 15px; text-align: center;" >
+      <p>Découvrez ci-dessous les différentes offres de remplacement concernant les Infirmiers Libéraux.</p>
+    </div>
+    <div style="" class="list card">
+      <div class="item item-divider item-positive">Marseille Ch remplacements</div>
+      <div class="item item-body">
+        <div style=" text-align: center;" >
+          <p>Bonjour je souhaiterai effectuée des remplacements en tant qu ide libérale , volontaire, motivée , et travailleuse .
+            Je suis actuelement en Cdi en structure hospitalière mais j'ai effectuer mes démarches auprès de la sécurité sociale j'ai reçu leur...</p>
+          </div>
+        </div>
+        <div class="item item-divider item-positive">Provence-Alpes-Côte d'Azur (18)</div>
+      </div>
+      <div style="" class="list card">
+        <div class="item item-divider item-positive">Metz Ch remplacements</div>
+        <div class="item item-body">
+          <div style=" text-align: center;" >
+            <p>Diplômée depuis 2011 et infirmière libérale remplaçante depuis plus de deux ans, je cherche une remplacement sur le secteur de Metz et alentours.
+              Actuellement remplaçante dans un cabinet...</p>
+            </div>
+          </div>
+          <div class="item item-divider item-positive">Lorraine (54)</div>
+        </div>
+        <div style="" class="list card">
+          <div class="item item-divider item-positive">Lille Ch remplaçant(e) dispo</div>
+          <div class="item item-body">
+            <div style=" text-align: center;" >
+              <p>Bonjour, Idel sur Lille recherche un(e) remplaçant(e) disponible de suite
+                Tournée approximatif de 7h à 11h et de 16h30 à 19h
+                Soins variés et nursing sim...</p>
+              </div>
+            </div>
+            <div class="item item-divider item-positive">Nord-Pas-de-Calais (59)</div>
+          </div>
+        </ion-content>
+      </ion-view>

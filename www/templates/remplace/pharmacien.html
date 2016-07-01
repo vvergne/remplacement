@@ -1,0 +1,82 @@
+<ion-view style="" id="page6" title="Dentiste">
+  <ion-content class="has-header" padding="true">
+    <button class="button button-positive"  ng-click="openModal()">Ajouter une annonce</button>
+    <ion-list>
+      <ion-item ng-repeat="announcement in annoucements">
+        <p>{{announcement.title}}        </p><br>
+        <p>{{announcement.description}}  </p>
+        <p>{{announcement.region}}       </p><br>
+      </ion-item>
+    </ion-list>
+    <form style="" class="list"></form>
+    <div style="" class="list card">
+      <div class="item item-divider item-positive">Communauté de Pharmacien</div>
+      <div class="item item-body">
+        <div style="text-align: center;">
+          <img src="img/pharmacien.png"  height="auto" width="50%">
+        </div>
+      </div>
+    </div>
+    <div class="list">
+      <div class="item range range-positive">0 km
+        <i class="icon ion-home"></i>
+        <input type="range" name="volume" min="0" max="100" value="10">
+        <i class="icon ion-map"></i>100 km
+      </div>
+    </div>
+    <form style="" class="list"></form>
+    <div style=" font-size: 15px; text-align: center;" >
+      <p>Découvrez ci-dessous les différentes offres de remplacement concernant les Pharmaciens.</p>
+    </div>
+    <div style="" class="list card">
+      <div class="item item-divider item-positive">Pharmacien BPDOM à Temps Partiel H/F </div>
+      <div class="item item-body">
+        <div style=" text-align: center;" >
+          <img src="img/lille.png" height="auto" width="100%"/>
+          <p>
+            Vous participez aux projets pharmaceutiques, assurez les remplacements de pharmaciens et les audits internes. Bastide Groupe, société spécialisée dans la vente....</p>
+          </div>
+        </div>
+        <div class="item item-divider item-positive">Nord</div>
+      </div>
+      <div style="" class="list card">
+        <div class="item item-divider item-positive">Pharmacien d'Officine H/F </div>
+        <div class="item item-body">
+          <div style=" text-align: center;" >
+            <img src="img/aix_en_provence.png" alt="" />
+            <p>
+              Il est impératif d'être inscrit au conseil de l'ordre des pharmaciens en section D Multi employeurs ou de posséder le certificat de remplacement en cours de...</p>
+            </div>
+          </div>
+          <div class="item item-divider item-positive">Aix-en-Provence(13)</div>
+          <div class="item item-divider item-positive">Retrocession : 80 %</div>
+          <div class="item item-divider item-positive">Du 12/05 au 27/05 *insérer picto*</div>
+        </div>
+        <div style="" class="list card">
+          <div class="item item-divider item-positive">Pharmacien remplaçant (H/F)</div>
+          <div class="item item-body">
+            <div style=" text-align: center;" >
+              <img src="img/bois_le_roi.png" width="100%" alt="" />
+              <p>
+                Pharmacien remplaçant (H/F). Dans le cadre de remplacements de congés payés, nous recrutons :. La clinique du Pays de Seine est un établissement de soins privé...</p>
+              </div>
+            </div>
+            <div class="item item-divider item-positive">Bois-le-Roi (77)</div>
+            <div class="item item-divider item-positive">Retrocession : 80 %</div>
+            <div class="item item-divider item-positive">Du 12/05 au 27/05 *insérer picto*</div>
+          </div>
+          <div style="" class="list card">
+            <div class="item item-divider item-positive">Pharmacien en milieu hospitalier (H/F)</div>
+              <div class="item item-body">
+                <div style=" text-align: center;" >
+                  <img src="img/brest.png" width="100%" alt="" />
+                  <p>
+Groupe de cliniques privées brestoises recrute dans le cadre d’un remplacement de longue durée (congé maternité) un pharmacien H/F CCD temps partiel (80%)*....</p>
+                  </div>
+                </div>
+                <div class="item item-divider item-positive">Brest(29)</div>
+                <div class="item item-divider item-positive">Retrocession : 80 %</div>
+                <div class="item item-divider item-positive">Du 12/05 au 27/05 *insérer picto*</div>
+              </div>
+            </ion-content>
+          </ion-view>

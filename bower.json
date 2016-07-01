@@ -1,0 +1,25 @@
+{
+  "name": "HelloIonic",
+  "private": true,
+  "devDependencies": {
+    "ionic": "driftyco/ionic-bower#1.2.4"
+  },
+  "dependencies": {
+    "angular-local-storage": "^0.2.7"
+  },
+  "homepage": "https://github.com/vvergne/remp",
+  "authors": [
+    "Vergne Victor <vergne.victor@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/lib",
+    "test",
+    "tests"
+  ]
+}
